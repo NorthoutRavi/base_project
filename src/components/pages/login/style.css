@@ -1,0 +1,55 @@
+body, #root {
+    height: 100%;
+  }
+  .login_bg {
+      position: relative;
+      background-color:#e0ded7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .brand_log{
+      width: 150px;
+    }
+    
+    .login-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 60px;
+      flex-direction: column;
+    }
+    .login-box{
+      min-height: 70%;
+      width: 73%;
+      margin: 100px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .login-box input[type=email]{
+      font-size: 13px;
+    }
+    .login-input-box{
+      width:70%;
+      margin: 10px;
+    }
+
+    
+
+    .login-button{
+      background-color: green;
+      padding: 5px 20px;
+      color: white;
+      margin-top:10px;
+    }
+    
+    
+    .reg-link{
+      position: absolute;
+      bottom: 7%;
+      right: 10%;
+    }
